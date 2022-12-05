@@ -23,4 +23,12 @@ public class PrductController {
         return("Welcome to product Addpage");
 
     }
+
+    @GetMapping("/search")
+
+    public String ProductSearchPage(){
+
+        return("Welcome to product Searchpage");
+
+    }
 }
