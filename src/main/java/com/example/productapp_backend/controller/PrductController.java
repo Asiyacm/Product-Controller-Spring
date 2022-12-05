@@ -31,4 +31,12 @@ public class PrductController {
         return("Welcome to product Searchpage");
 
     }
+
+    @GetMapping("/edit")
+
+    public String ProductEditPage(){
+
+        return("Welcome to product Editpage");
+
+    }
 }
