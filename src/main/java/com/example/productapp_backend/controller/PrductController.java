@@ -47,4 +47,12 @@ public class PrductController {
         return("Welcome to product Viewpage");
 
     }
+
+    @GetMapping("/delete")
+
+    public String ProductDeletePage(){
+
+        return("Welcome to product Deletepage");
+
+    }
 }
