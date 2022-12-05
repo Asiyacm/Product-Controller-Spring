@@ -15,4 +15,12 @@ public class PrductController {
         return("Welcome to product Homepage");
 
     }
+
+    @GetMapping("/add")
+
+    public String ProductAddPage(){
+
+        return("Welcome to product Addpage");
+
+    }
 }
