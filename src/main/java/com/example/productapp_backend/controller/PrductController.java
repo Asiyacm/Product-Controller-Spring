@@ -39,4 +39,12 @@ public class PrductController {
         return("Welcome to product Editpage");
 
     }
+
+    @GetMapping("/viewall")
+
+    public String ProductViewAllPage(){
+
+        return("Welcome to product Viewpage");
+
+    }
 }
