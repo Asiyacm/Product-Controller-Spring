@@ -2,6 +2,7 @@ package com.example.productapp_backend.controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -16,7 +17,7 @@ public class PrductController {
 
     }
 
-    @GetMapping("/add")
+    @PostMapping("/add")
 
     public String ProductAddPage(){
 
@@ -24,7 +25,7 @@ public class PrductController {
 
     }
 
-    @GetMapping("/search")
+    @PostMapping("/search")
 
     public String ProductSearchPage(){
 
@@ -32,7 +33,7 @@ public class PrductController {
 
     }
 
-    @GetMapping("/edit")
+    @PostMapping("/edit")
 
     public String ProductEditPage(){
 
@@ -48,7 +49,7 @@ public class PrductController {
 
     }
 
-    @GetMapping("/delete")
+    @PostMapping("/delete")
 
     public String ProductDeletePage(){
 
